@@ -15,11 +15,14 @@
     padding: 20px;
     position: fixed;
     opacity: 1;
-    z-index: 10;
+    z-index: 100;
     font-weight: bold;
 }
 .header .logo{
-    font-size: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .header nav ul{
     font-size: 20px;
@@ -29,6 +32,7 @@
     align-items: center;
 }
 .header nav ul li{
+    cursor: pointer;
     margin-left: 20px;
 }
 .header nav ul li .btn{
@@ -51,7 +55,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(9, 9, 9, 0.848);
+    background: rgba(42, 41, 41, 0.848);
     z-index: 5;
 }
 .hero-sec-content{
@@ -69,10 +73,10 @@
     width: 30%;
 }
 .hero-sec-content .content{
-    text-align: center;
     font-size: 24px;
 }
 .hero-sec-content .content .btns button{
+    margin-top: 10px;
     width: 40% ;
     padding: 8px 10px;
     font-size: 20px;
@@ -96,4 +100,72 @@
 .hero-sec-content .register form .btn{
     background-color: rgb(22, 22, 249);
     font-weight: bold;
+}
+
+.margin{
+    margin: 100px 40px;
+}
+/* About section */
+.company{
+    text-align: center;
+}
+.company h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.split-line{
+    width: 100%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.split-line .line{
+    width: 20%;
+    height: 3px;
+    background-color: black;
+}
+.company .company-logos{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.company .company-logos img{
+    width: 100px;
+}
+.choose-us{
+    text-align: center;
+}
+.choose-us h3{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.cards .card{
+    width: 300px;
+    text-align: left;
+    box-shadow: 10px 10px 14px slategray;
+    padding: 20px;
+}
+.cards .card *{
+    margin: 10px 0px;
+}
+.cards .card h4{
+    font-size: 24px;
+}
+.cards .card .img{
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: rgb(184, 185, 186);
+    color: black;
+}
+.cards .card p{
+    color: slategray;
 }
