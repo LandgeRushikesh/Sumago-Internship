@@ -1,0 +1,7 @@
+Transformation : (2D)
+1)Translate(x,y) ---> translate(20px,30px)
+1)Rotate(angle) ---> 
+		rotate(20deg) ---> rotate clockwise
+		rotate(-20deg) ---> rotate anti-clockwise
+1)scale(value) ---> scale(0.5)
+1)skew(horizontal,vertical) ---> skew(10deg,30deg)
