@@ -1,0 +1,8 @@
+1) Hover
+2) link
+3) visited
+4) active
+5) focus
+6) first child
+7) last child
+8) nth child
