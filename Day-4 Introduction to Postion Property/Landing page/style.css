@@ -80,6 +80,12 @@
   width: 40%;
   padding: 8px 10px;
   font-size: 20px;
+  transition: all 0.3s;
+}
+.hero-sec-content .content .btns button:hover {
+  background: transparent;
+  color: white;
+  border: 2px solid black;
 }
 .hero-sec-content .register form {
   display: flex;
@@ -148,11 +154,28 @@
   align-items: center;
   gap: 40px;
 }
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
 .cards .card {
   width: 300px;
   text-align: left;
   box-shadow: 10px 10px 14px slategray;
   padding: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  animation: FadeIn 3s ease-in;
+}
+.cards .card:hover {
+  transform: translateY(-10px);
 }
 .cards .card * {
   margin: 10px 0px;
@@ -182,6 +205,17 @@ footer {
 footer .footer-content {
   padding: 30px;
   padding: 20px 10%;
+  animation: scaleIn 3s ease-in-out;
+}
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 footer .footer-content .title {
   display: flex;
@@ -209,6 +243,7 @@ footer .footer-content .social-links a {
   padding: 6px 10px;
   margin: 10px;
   font-weight: bold;
+  transition: all 0.3s;
 }
 footer .footer-content .social-links a:nth-child(1):hover {
   background-color: green;
