@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider div img {
+  width: 100vw;
+  height: 100vh;
+}
+.img-cnt {
+  position: relative;
+}
+.text {
+  color: white;
+  position: absolute;
+  z-index: 10;
+  bottom: 10%;
+  left: 35%;
+  text-align: center;
+}
+.spots,
+.Events {
+  margin: 40px 20px;
+}
+.places,
+.events-cnt {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  overflow-x: scroll;
+}
+.card {
+  flex-shrink: 0;
+  margin: 30px 20px;
+  box-shadow: 10px 10px 10px slategray;
+  padding: 10px 8px;
+}
