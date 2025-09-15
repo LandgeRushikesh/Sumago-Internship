@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,21 +15,34 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <style>
+      .container {
+        border: 2px solid red;
+        padding: 10px;
+      }
+      .row {
+        border: 2px solid green;
+        padding: 10px;
+      }
+      .col-12,
+      .col-4 {
+        border: 2px solid black;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-      <div class="login-page">
-        <h2>Login Page</h2>
-        <form>
-          <input type="text" placeholder="Enter your Email..." required />
-          <input
-            type="password"
-            placeholder="Enter your password..."
-            required
-          />
-          <a class="link" href="./index.html">Sign In</a>
-          <p>Don't have an account?<a href="./Signup.html">Sign Up</a></p>
-        </form>
+      <div class="row">
+        <div class="col-12"><h1>Hello World</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-4"><h1>Section 1</h1></div>
+        <div class="col-4"><h1>Section 2</h1></div>
+        <div class="col-4"><h1>Section 3</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-12"><h1>Ok Bye</h1></div>
       </div>
     </div>
   </body>

@@ -7,16 +7,26 @@
   width: 100vw;
   height: 100vh;
 }
-.img-cnt {
-  position: relative;
+.navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
 }
-.text {
+ul li {
+  font-weight: bold;
+}
+.carousel-caption h5 {
+  font-size: 50px;
+}
+.carousel-caption p {
+  font-size: 30px;
+}
+.carousel-caption a {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 10px;
   color: white;
-  position: absolute;
-  z-index: 10;
-  bottom: 10%;
-  left: 35%;
-  text-align: center;
+  font-weight: bold;
 }
 .spots,
 .Events {
@@ -36,4 +46,118 @@
   margin: 30px 20px;
   box-shadow: 10px 10px 10px slategray;
   padding: 10px 8px;
+}
+.card-body h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-body p {
+  color: slategray;
+}
+.places-cnt,
+.events-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-page,
+.signup-page,
+.Contact-page {
+  width: 400px;
+  padding: 20px 30px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 2px rgb(106, 103, 103);
+  background-color: white;
+}
+.login-page h2,
+.signup-page h2,
+.Contact-page h2 {
+  margin-bottom: 8px;
+  color: black;
+  text-align: center;
+}
+.login-page form,
+.signup-page form,
+.Contact-page form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-page form *,
+.signup-page form *,
+.Contact-page form * {
+  margin-top: 20px;
+  width: 100%;
+}
+.login-page form input,
+.signup-page form input,
+.Contact-page form input,
+.Contact-page form textarea {
+  font-size: 16px;
+  padding: 8px 4px;
+  color: black;
+}
+.login-page form .link,
+.signup-page form .link {
+  padding: 6px 16px;
+  font-size: 20px;
+  background-color: rgb(55, 55, 254);
+  border: 2px solid rgb(55, 55, 254);
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.login-page form p,
+.signup-page form p {
+  margin-top: 2px;
+  color: slategray;
+  font-size: medium;
+}
+.login-page form p a,
+.signup-page form p a {
+  color: blue;
+}
+.Contact-page button {
+  background-color: red;
+  width: fit-content;
+  border: 2px solid red;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+.back {
+  display: block;
+  margin-top: 10px;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: green;
+  border: 2px solid green;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+footer {
+  padding: 20px 8px;
+  text-align: center;
+  background-color: rgb(13, 14, 32);
+}
+footer h4 {
+  font-size: 30px;
+  margin-bottom: 4px;
+  color: white;
+}
+footer p {
+  color: slategray;
 }
