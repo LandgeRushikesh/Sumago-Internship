@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: red;
+        color: white;
+      }
+      .print {
+        display: none;
+      }
+      @media (max-width: 600px) {
+        body {
+          background-color: pink;
+        }
+      }
+      @media (min-width: 600px) and (max-width: 100px) {
+        body {
+          background-color: black;
+        }
+      }
+      @media print {
+        .print {
+          display: block;
+        }
+        .no-print {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p class="print">This will Only shown in print screen</p>
+    <p class="no-print">This will Only shown on Normal screen</p>
+  </body>
+</html>
