@@ -41,20 +41,38 @@ console.log("---------------Second Approach-----------------------");
 function Palindrome(str) {
     let i = 0;
     let j = str.length - 1;
-    while (i <= j) {
+    while (i < j) {
         if (str[i] != str[j]) {
-            return `"${str}" is Palindrome`;
+            return `"${str}" not is Palindrome`;
         }
         i++;
         j--;
     }
-    return `"${str}" is not Palindrome`;
+    return `"${str}" is Palindrome`;
 }
 
 let S = "aabaa"
 let res = Palindrome(S)
 console.log(res);
 
+
+console.log("***************Palindrome Number**************************");
+
+let Num = 1221;
+let og = Num;
+let reversed = 0;
+while (Num > 0) {
+    let ld = Num % 10;
+    reversed = reversed * 10 + ld;
+    Num = Math.floor(Num / 10);
+}
+
+if (reversed === og) {
+    console.log(`${og} is Palindrome`);
+}
+else {
+    console.log(`${og} is Not Palindrome`);
+}
 
 console.log("***************Leap Year**************************");
 
