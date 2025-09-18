@@ -1,90 +1,78 @@
 const nashikPlaces = [
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/4/45/Saptashrungi_temple.jpg",
-        name: "Saptashrungi Devi Temple",
-        description:
-            "A revered hilltop temple dedicated to Goddess Saptashrungi, located about 60 km from Nashik. It attracts thousands of devotees during Navratri."
-    },
-    {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Pandavleni_Caves_Nashik.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755070345/Pandav_Caves_fjwy9a.jpg",
         name: "Pandav Leni Caves",
         description:
             "Ancient rock-cut caves dating back to the 1st century BCE, showcasing beautiful Buddhist sculptures, inscriptions, and meditation halls."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Godavari_River_in_Nashik.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755090621/Ramkund_btp5x3.jpg",
         name: "Godavari Ghat (Ramkund)",
         description:
             "A sacred bathing ghat on the Godavari river, believed to be where Lord Rama performed rituals during his exile. A major spot during Kumbh Mela."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Sula_Vineyards.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076305/Sula_Vineyards_ewl092.jpg",
         name: "Sula Vineyards",
         description:
             "India's most famous vineyard and winery. Offers wine-tasting tours, lush vineyard views, and annual music festivals like SulaFest."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Trimbakeshwar_Temple.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076310/Trimbakeshwar_Temple_jwmzht.jpg",
         name: "Trimbakeshwar Temple",
         description:
             "One of the 12 Jyotirlingas of Lord Shiva, located at the origin of the Godavari river. Known for its unique architecture and religious significance."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Anjaneri_fort.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755070345/Anjneri_Hill_faf4iu.jpg",
         name: "Anjaneri Hills",
         description:
             "Considered the birthplace of Lord Hanuman, Anjaneri Hills offer scenic trekking trails and panoramic views of the surrounding Sahyadri ranges."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Someshwar_Temple_Nashik.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755090636/Someshwar_Temple_xni8kk.jpg",
         name: "Someshwar Waterfall & Temple",
         description:
             "A scenic picnic spot with a beautiful waterfall and an ancient Lord Shiva temple, located near Gangapur Dam."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Coin_Museum_Nashik.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076297/Coin_Museum_dr67pg.jpg",
         name: "Indian Coin Museum",
         description:
             "The only coin museum in Asia, displaying rare coins, currency notes, and artifacts representing India's monetary history."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/7/79/Gargoti_Mineral_Museum.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076299/Gargoti_Museum_dwgcwv.jpg",
         name: "Gargoti Mineral Museum",
         description:
             "A world-famous mineral museum showcasing rare minerals, crystals, and precious stones from India and around the world."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Harihar_fort.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076298/Harihar_Fort_ahg3zs.jpg",
         name: "Harihar Fort",
         description:
             "A unique fort famous for its near-vertical rock-cut steps and thrilling trek, offering a breathtaking view from the top."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/1/16/Brahmagiri_Hill_Trimbakeshwar.jpg",
-        name: "Brahmagiri Hills",
-        description:
-            "The origin of the holy Godavari river. A popular trekking and spiritual destination with temples and panoramic views."
-    },
-    {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Kalaram_temple_nashik.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076302/Kalaram_Temple_kvxgm8.jpg",
         name: "Kalaram Temple",
         description:
             "An ancient temple dedicated to Lord Rama, known for its black stone idol and beautiful architecture. A major site during Ramnavami celebrations."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sita_Gufa_Nashik.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076302/Sita_Gumpha_cghflz.jpg",
         name: "Sita Gufa",
         description:
             "A narrow cave where Sita is believed to have stayed during the exile. It is located near Panchvati and holds mythological significance."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Dudhsagar_Falls_Nashik.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076383/Someshwar_waterfall_ezzf7n.webp",
         name: "Dudhsagar Falls (Nashik)",
         description:
             "A stunning seasonal waterfall near Someshwar, popular for its white foamy water and scenic beauty during monsoons."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Muktidham_temple.jpg",
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755076300/Muktidham_Temple_rl2jf2.jpg",
         name: "Muktidham Temple",
         description:
             "A marble temple complex housing replicas of all 12 Jyotirlingas and major Hindu deities, making it a mini spiritual hub."
@@ -96,14 +84,102 @@ const places = document.body.querySelector(".places")
 
 
 nashikPlaces.map((place) => {
-    `<div class="card" style="width: 18rem">
-        <img src=${place.imgURL} class="card-img-top" alt="..." />
+    places.innerHTML = places.innerHTML + `
+    <div class="card">
+        <img src=${place.imgURL} alt="..." />
         <div class="card-body">
-            <h5 class="card-title"></h5>
+            <h5 class="card-title">${place.name}</h5>
             <p class="card-text">
-                Ramkund is a holy bathing ghat where pilgrims perform rituals.
-                It is believed Lord Rama bathed here during his exile. It’s the
-                focal point during Kumbh Mela.
+                ${place.description}
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>`
+})
+
+const nashikEvents = [
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755083089/Kumbh_Mela_lkdkkf.jpg",
+        name: "Kumbh Mela",
+        description:
+            "The largest religious gathering in the world, held every 12 years in Nashik. Millions of devotees take a holy dip at Ramkund on the Godavari River."
+    },
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755083087/SulaFest_x47xgz.webp",
+        name: "SulaFest",
+        description:
+            "India's biggest vineyard music festival held annually at Sula Vineyards. Features live music, gourmet food, wine tasting, and camping."
+    },
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755083084/Ramnavami_Festival_kbkwrh.jpg",
+        name: "Ram Navami Festival",
+        description:
+            "Celebrated with grandeur at Kalaram Temple in Panchvati. The temple and streets are beautifully decorated, and processions attract thousands of devotees."
+    },
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755083083/Maha_Shivratri_Fair_e3bnll.jpg",
+        name: "Maha Shivratri at Trimbakeshwar",
+        description:
+            "A major festival where devotees visit Trimbakeshwar Temple to offer prayers to Lord Shiva. The entire town lights up with religious fervor."
+    },
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755083086/Grape_Harvest_Festival_wqwkl3.jpg",
+        name: "Nashik Grape Harvest Festival",
+        description:
+            "A celebration of the grape harvest season featuring grape stomping, wine tasting, food stalls, and cultural performances."
+    },
+    {
+        imgURL: "https://upload.wikimedia.org/wikipedia/commons/2/24/Holi_Festival_India.jpg",
+        name: "Holi in Nashik",
+        description:
+            "The festival of colors celebrated across Nashik with joy, music, and traditional sweets like Puran Poli."
+    },
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755083080/Diwali_in_Nashik_ckjvq0.webp",
+        name: "Diwali in Nashik",
+        description:
+            "The city glows with lamps and fireworks. Major temples and markets are decorated beautifully, attracting visitors from nearby towns."
+    },
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755083078/Ganesh_Chaturthi_Festival_tslsk2.avif",
+        name: "Ganesh Chaturthi",
+        description:
+            "A 10-day grand festival with beautifully decorated Ganesh idols, processions, and immersion ceremonies in the Godavari river."
+    },
+    {
+        imgURL: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Dahi_Handi_Celebrations.jpg",
+        name: "Dahi Handi (Janmashtami)",
+        description:
+            "Celebrated with human pyramids breaking earthen pots filled with curd, symbolizing Lord Krishna’s childhood pranks."
+    },
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755086354/Nashik_International_Film_Festival_iihj3l.jpg",
+        name: "Nashik International Film Festival",
+        description:
+            "An event that promotes independent cinema, showcasing films, documentaries, and short films by Indian and international filmmakers."
+    },
+    {
+        imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755086353/Nashik_Marathon_zje8py.avif",
+        name: "Nashik Run Marathon",
+        description:
+            "A charity marathon organized every year to raise funds for social causes. Participants include professionals and amateur runners."
+    },
+    {
+        imgURL: "https://upload.wikimedia.org/wikipedia/commons/0/07/Nashik_Flower_Show.jpg",
+        name: "Nashik Flower Show",
+        description:
+            "An annual flower exhibition showcasing exotic flowers, bonsai, landscaping, and gardening workshops."
+    }
+];
+
+const events = document.body.querySelector(".events-cnt")
+
+nashikEvents.map((event) => {
+    events.innerHTML = events.innerHTML + `<div class="card" style="width: 18rem">
+        <img src=${event.imgURL} class="card-img-top" alt="..." />
+        <div class="card-body">
+            <h5 class="card-title">${event.name}</h5>
+            <p class="card-text">
+                ${event.description}
             </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>`

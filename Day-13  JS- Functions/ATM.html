@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Menu:</h1>
+    <button onclick="checkBalance()">Check Balance</button><br />
+    <button onclick="Withdraw()">Withdraw</button><br />
+    <button onclick="Deposite()">Deposite</button><br />
+    <script>
+      let ATMpin = 1111;
+      let Balance = 100000;
+      function checkBalance() {
+        let pin = parseInt(prompt("Enter your pin..."));
+        if (pin === ATMpin) {
+          alert(`Your total Balance ${Balance}`);
+        } else {
+          alert("Wrong pin");
+        }
+      }
+      function Withdraw() {
+        let pin = parseInt(prompt("Enter your pin..."));
+        if (pin === ATMpin) {
+          let amount = parseInt(prompt("Enter an amount you want to withdraw"));
+          if (amount > Balance) {
+            alert("insufficient balance");
+          } else {
+            Balance -= amount;
+            alert(`Your total Balance ${Balance}`);
+          }
+        } else {
+          alert("Wrong pin");
+        }
+      }
+      function Deposite() {
+        let pin = parseInt(prompt("Enter your pin..."));
+        if (pin === ATMpin) {
+          let amount = parseInt(prompt("Enter an amount you want to deposite"));
+          Balance += amount;
+          alert(`Your total Balance ${Balance}`);
+        } else {
+          alert("Wrong pin");
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function calculate(total, total_sub) {
+        let percent = (total / (total_sub * 100)) * 100;
+        let grade = "";
+        if (percent > 85) {
+          grade = "A";
+        } else if (percent > 75) {
+          grade = "B";
+        } else if (percent > 65) {
+          grade = "C";
+        } else if (percent > 55) {
+          grade = "D";
+        } else if (percent > 40) {
+          grade = "F";
+        }
+
+        alert(`You got ${grade} grade and ${percent}% in your exam !!! `);
+      }
+      function getdata() {
+        let total = 0;
+        for (let i = 0; i < 5; i++) {
+          let subject = prompt("Enter the Subject name");
+          let marks = parseInt(prompt(`Enter marks in ${subject}`));
+          total += marks;
+        }
+
+        calculate(total, 5);
+      }
+
+      getdata();
+    </script>
+  </body>
+</html>

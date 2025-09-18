@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="addTask()">Add task</button>
+    <button onclick="displayTask()">Display task</button>
+    <button onclick="removeTask()">Remove task</button>
+    <script>
+      let Tasks = [];
+
+      function addTask() {
+        let task = prompt("Enter a task...");
+        Tasks.push(task);
+        alert("Task has been added!!!");
+      }
+      function displayTask() {
+        let tasks = Tasks.join(",");
+        alert(tasks);
+      }
+      function removeTask() {
+        let remove = prompt("Give task to remove...");
+        let index = Tasks.indexOf(remove);
+        if (index > -1) {
+          Tasks.splice(index, 1);
+          alert("Task removed...");
+        } else {
+          alert("Task not found...");
+        }
+      }
+    </script>
+  </body>
+</html>

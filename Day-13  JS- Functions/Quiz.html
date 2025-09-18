@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function quiz() {
+        let score = 0;
+        let que1 = prompt("HTML stands for...");
+        if (que1.toLowerCase() === "hyper text markup language") {
+          score++;
+        }
+        let que2 = prompt("CSS stands for...");
+        if (que2.toLowerCase() === "cascading style sheet") {
+          score++;
+        }
+        let que3 = parseInt(prompt("100/10 is equal to"));
+        if (que3 === 10) {
+          score++;
+        }
+        let que4 = prompt("Sun is a ....");
+        if (que4.toLowerCase() === "star") {
+          score++;
+        }
+        let que5 = prompt("Capital of Maharstra...");
+        if (que5.toLowerCase() === "mumbai") {
+          score++;
+        }
+
+        alert(`Your total score is ${score}`);
+      }
+
+      quiz();
+    </script>
+  </body>
+</html>

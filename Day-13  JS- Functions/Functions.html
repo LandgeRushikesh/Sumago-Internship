@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Functions</title>
+  </head>
+  <body>
+    <button onclick="sum()">Add</button><br />
+    <script>
+      //Function without parameter
+      function print() {
+        document.write("Hello World!!!");
+      }
+
+      print();
+      document.write("<br>");
+
+      //  Function with parameters
+      function add(a, b) {
+        // document.write(a + b);
+        return a + b;
+      }
+
+      //   add(2, 3);
+      //   let res = add(2, 3);
+      //   document.write(res);
+      document.write(add(2, 3));
+
+      //   Check eligbility for vote
+      function checkAge() {
+        let age = prompt("Enter your age");
+        if (age >= 18) {
+          alert("Your eligible for voting!!!");
+        } else {
+          alert("Your eligible for voting!!!");
+        }
+      }
+
+      //   checkAge();
+
+      //   Add 2 numbers
+
+      function sum() {
+        let num1 = parseInt(prompt("Enter first number"));
+        let num2 = parseInt(prompt("Enter second number"));
+        alert(num1 + num2);
+      }
+
+      //   sum();
+
+      //   subtract 2 numbers
+      function sub() {
+        let num1 = prompt("Enter first number");
+        let num2 = prompt("Enter second number");
+        alert(num1 - num2);
+      }
+
+      sub();
+    </script>
+  </body>
+</html>
