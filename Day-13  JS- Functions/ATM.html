@@ -4,12 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      .btn {
+        background-color: red;
+        padding: 10px 20px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-    <h1>Menu:</h1>
-    <button onclick="checkBalance()">Check Balance</button><br />
-    <button onclick="Withdraw()">Withdraw</button><br />
-    <button onclick="Deposite()">Deposite</button><br />
+    <div class="container">
+      <h1>Welcome to ATM</h1>
+      <h1>Menu:</h1>
+      <div class="btns">
+        <button class="btn" onclick="checkBalance()">Check Balance</button>
+        <button class="btn" onclick="Withdraw()">Withdraw</button>
+        <button class="btn" onclick="Deposite()">Deposite</button>
+      </div>
+    </div>
     <script>
       let ATMpin = 1111;
       let Balance = 100000;

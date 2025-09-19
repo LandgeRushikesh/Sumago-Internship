@@ -4,10 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      button {
+        background-color: green;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      p {
+        font-size: 24px;
+      }
+    </style>
   </head>
   <body>
+    <h1>Welcome to Quiz App</h1>
+    <button onclick="quiz()">Take a Quiz</button>
+    <p class="result"></p>
     <script>
       function quiz() {
+        let name = prompt("Enter your Name:");
         let score = 0;
         let que1 = prompt("HTML stands for...");
         if (que1.toLowerCase() === "hyper text markup language") {
@@ -30,10 +56,11 @@
           score++;
         }
 
-        alert(`Your total score is ${score}`);
+        let res = document.querySelector(".result");
+        res.innerText = `${
+          score >= 3 ? "Congratulations!!!," : "Better luck next time,"
+        }${name} your score is ${score}`;
       }
-
-      quiz();
     </script>
   </body>
 </html>

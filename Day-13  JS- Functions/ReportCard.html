@@ -4,11 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      button {
+        background-color: green;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      p {
+        font-size: 24px;
+      }
+    </style>
   </head>
+
   <body>
+    <h1>Welcome to academic calculator</h1>
+    <button onclick="getdata()">Calculate Grade</button>
+    <p class="result"></p>
     <script>
-      function calculate(total, total_sub) {
+      function calculate(name, total, total_sub) {
         let percent = (total / (total_sub * 100)) * 100;
+        percent = Math.round(percent * 100) / 100;
         let grade = "";
         if (percent > 85) {
           grade = "A";
@@ -21,21 +48,21 @@
         } else if (percent > 40) {
           grade = "F";
         }
-
-        alert(`You got ${grade} grade and ${percent}% in your exam !!! `);
+        let res = document.querySelector(".result");
+        res.innerText = `${name} you got '${grade}' grade and ${percent}% in your exam !!! `;
       }
       function getdata() {
         let total = 0;
-        for (let i = 0; i < 5; i++) {
+        let total_sub = 3;
+        let name = prompt("Enter your Name:");
+        for (let i = 0; i < total_sub; i++) {
           let subject = prompt("Enter the Subject name");
           let marks = parseInt(prompt(`Enter marks in ${subject}`));
           total += marks;
         }
 
-        calculate(total, 5);
+        calculate(name, total, total_sub);
       }
-
-      getdata();
     </script>
   </body>
 </html>
