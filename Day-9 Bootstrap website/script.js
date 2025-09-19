@@ -83,7 +83,7 @@ const nashikPlaces = [
 const places = document.body.querySelector(".places")
 
 
-nashikPlaces.map((place) => {
+places && nashikPlaces.map((place) => {
     places.innerHTML = places.innerHTML + `
     <div class="card">
         <img src=${place.imgURL} alt="..." />
@@ -128,12 +128,6 @@ const nashikEvents = [
             "A celebration of the grape harvest season featuring grape stomping, wine tasting, food stalls, and cultural performances."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/2/24/Holi_Festival_India.jpg",
-        name: "Holi in Nashik",
-        description:
-            "The festival of colors celebrated across Nashik with joy, music, and traditional sweets like Puran Poli."
-    },
-    {
         imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755083080/Diwali_in_Nashik_ckjvq0.webp",
         name: "Diwali in Nashik",
         description:
@@ -146,12 +140,6 @@ const nashikEvents = [
             "A 10-day grand festival with beautifully decorated Ganesh idols, processions, and immersion ceremonies in the Godavari river."
     },
     {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Dahi_Handi_Celebrations.jpg",
-        name: "Dahi Handi (Janmashtami)",
-        description:
-            "Celebrated with human pyramids breaking earthen pots filled with curd, symbolizing Lord Krishna’s childhood pranks."
-    },
-    {
         imgURL: "https://res.cloudinary.com/de3hys95z/image/upload/v1755086354/Nashik_International_Film_Festival_iihj3l.jpg",
         name: "Nashik International Film Festival",
         description:
@@ -162,20 +150,14 @@ const nashikEvents = [
         name: "Nashik Run Marathon",
         description:
             "A charity marathon organized every year to raise funds for social causes. Participants include professionals and amateur runners."
-    },
-    {
-        imgURL: "https://upload.wikimedia.org/wikipedia/commons/0/07/Nashik_Flower_Show.jpg",
-        name: "Nashik Flower Show",
-        description:
-            "An annual flower exhibition showcasing exotic flowers, bonsai, landscaping, and gardening workshops."
     }
 ];
 
 const events = document.body.querySelector(".events-cnt")
 
-nashikEvents.map((event) => {
-    events.innerHTML = events.innerHTML + `<div class="card" style="width: 18rem">
-        <img src=${event.imgURL} class="card-img-top" alt="..." />
+events && nashikEvents.map((event) => {
+    events.innerHTML = events.innerHTML + `<div class="card">
+        <img src=${event.imgURL} alt="..." />
         <div class="card-body">
             <h5 class="card-title">${event.name}</h5>
             <p class="card-text">
