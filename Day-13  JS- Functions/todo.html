@@ -5,31 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    form input {
+      width: 400px;
+      padding: 4px 10px;
+    }
+    form button {
+      padding: 4px;
+    }
+    .task {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 400px;
+      border: 2px solid black;
+      padding: 0px 20px;
+      margin: 10px 0px;
+    }
+  </style>
   <body>
-    <button onclick="addTask()">Add task</button>
-    <button onclick="displayTask()">Display task</button>
-    <button onclick="removeTask()">Remove task</button>
+    <h1>Todo List</h1>
+    <form onsubmit="return addTask(event)">
+      <input
+        type="text"
+        class="ip-task"
+        placeholder="Enter your task..."
+        required
+      /><button>Add task</button>
+    </form>
+    <div class="todo-list"></div>
     <script>
       let Tasks = [];
 
-      function addTask() {
-        let task = prompt("Enter a task...");
-        Tasks.push(task);
-        alert("Task has been added!!!");
+      function addTask(event) {
+        event.preventDefault();
+        let ip = document.querySelector(".ip-task").value;
+        Tasks.push(ip);
+        document.querySelector(".ip-task").value = "";
+        displayTask();
       }
       function displayTask() {
-        let tasks = Tasks.join(",");
-        alert(tasks);
+        let todoList = document.querySelector(".todo-list");
+        todoList.innerHTML = "";
+        Tasks.map(
+          (task, index) =>
+            (todoList.innerHTML =
+              todoList.innerHTML +
+              `
+              <div class="task">
+        <p class="text">${task}</p>
+        <button onclick="removeTask(${index})">remove</button>
+      </div>
+
+          `)
+        );
       }
-      function removeTask() {
-        let remove = prompt("Give task to remove...");
-        let index = Tasks.indexOf(remove);
-        if (index > -1) {
-          Tasks.splice(index, 1);
-          alert("Task removed...");
-        } else {
-          alert("Task not found...");
-        }
+      function removeTask(index) {
+        Tasks.splice(index, 1);
+        displayTask();
       }
     </script>
   </body>
