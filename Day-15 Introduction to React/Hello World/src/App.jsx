@@ -30,6 +30,10 @@ function App() {
   const sayHello = () => {
     alert("Hello , Have a Nice Day!!!");
   };
+
+  const sayBye = () => {
+    alert("Bye, Have a Nice Day!!!");
+  };
   return (
     <>
       <h1>Hello World</h1>
@@ -48,7 +52,7 @@ function App() {
       <h1>Profile</h1>
       <Profile student={student} />
 
-      <Hello sayHello={sayHello} />
+      <Hello sayHello={sayHello} sayBye={sayBye} />
     </>
   );
 }
