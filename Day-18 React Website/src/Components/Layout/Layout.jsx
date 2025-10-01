@@ -5,11 +5,11 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-blue-500 to-green-500">
       <header className="w-full">
         <Navbar />
       </header>
-      <main>
+      <main className="min-h-[80vh]">
         <Outlet />
       </main>
       <footer>
