@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-green-500">
+    <div className="bg-gradient-to-r from-gray-900 via-blue-800 to-gray-800">
       <header className="w-full">
         <Navbar />
       </header>

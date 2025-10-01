@@ -2,8 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-[url('about-img.png')] h-[80vh] bg-no-repeat bg-contain bg-left relative">
-      <div className="text w-[40%] h-full absolute right-0 flex flex-col justify-center items-start text-white mr-8">
+    <div className="h-[80vh] relative flex justify-between items-center">
+      <div className="w-[60vw]">
+        <img src="/about-img.png" className="w-full" alt="" />
+      </div>
+      <div className="text w-[40vw] h-full flex flex-col justify-center items-start text-white mr-8">
         <h2 className="text-4xl font-bold mb-3">About Legends of 22 Yards</h2>
         <p className="text-xl mb-3">
           Legends of 22 Yards is a tribute to Indian cricket, celebrating its

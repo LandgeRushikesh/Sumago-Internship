@@ -9,19 +9,64 @@ function Navbar() {
       </h1>
       <ul className="w-1/3 flex justify-evenly items-center text-lg">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `${
+                isActive ? "text-blue-500 font-bold text-xl" : "text-black"
+              } transition-all ease-in-out duration-150`
+            }
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/About">About</NavLink>
+          <NavLink
+            to="/About"
+            className={({ isActive }) =>
+              `${
+                isActive ? "text-blue-500 font-bold text-xl" : "text-black"
+              } transition-all ease-in-out duration-150`
+            }
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/Players">Players</NavLink>
+          <NavLink
+            to="/Players"
+            className={({ isActive }) =>
+              `${
+                isActive ? "text-blue-500 font-bold text-xl" : "text-black"
+              } transition-all ease-in-out duration-150`
+            }
+          >
+            Players
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/Teams">Teams</NavLink>
+          <NavLink
+            to="/Teams"
+            className={({ isActive }) =>
+              `${
+                isActive ? "text-blue-500 font-bold text-xl" : "text-black"
+              } transition-all ease-in-out duration-150`
+            }
+          >
+            Teams
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/Stats">Stats</NavLink>
+          <NavLink
+            to="/Stats"
+            className={({ isActive }) =>
+              `${
+                isActive ? "text-blue-500 font-bold text-xl" : "text-black"
+              } transition-all ease-in-out duration-150`
+            }
+          >
+            Stats
+          </NavLink>
         </li>
       </ul>
     </nav>
