@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Sachin Tendulkar",
+    "role": "Batsman",
+    "career": "1989 - 2013",
+    "matches": 664,
+    "runs": 34357,
+    "wickets": 200,
+    "achievements": [
+      "100 International Centuries",
+      "Most Runs in International Cricket",
+      "World Cup Winner 2011",
+      "Bharat Ratna Awardee"
+    ],
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sachin_Tendulkar_at_MRF_Promotion_Event.jpg"
+  },
+  {
+    "name": "MS Dhoni",
+    "role": "Batsman",
+    "career": "2004 - 2019",
+    "matches": 538,
+    "runs": 17266,
+    "wickets": 1,
+    "achievements": [
+      "2007 T20 World Cup Winning Captain",
+      "2011 ICC World Cup Winning Captain",
+      "2013 ICC Champions Trophy Winning Captain",
+      "Best Finisher in World Cricket"
+    ],
+    "imgURL": "https://w0.peakpx.com/wallpaper/951/988/HD-wallpaper-ms-dhoni-bcci-blue-cricket-india-jersey-msd.jpg"
+  },
+  {
+    "name": "Virat Kohli",
+    "role": "Batsman",
+    "career": "2008 - Present",
+    "matches": 500,
+    "runs": 25000,
+    "wickets": 8,
+    "achievements": [
+      "Fastest to 8000, 9000, 10000 ODI runs",
+      "Most centuries in successful ODI chases",
+      "ICC Cricketer of the Decade 2010s"
+    ],
+    "imgURL": "https://www.deccanchronicle.com/h-upload/2025/07/16/1938706-gv-dmoxkaaz9is.webp"
+  },
+  {
+    "name": "Rohit Sharma",
+    "role": "Batsman",
+    "career": "2007 - Present",
+    "matches": 450,
+    "runs": 17000,
+    "wickets": 8,
+    "achievements": [
+      "Only batsman with 3 ODI Double Centuries",
+      "Most T20I runs in the world",
+      "ICC Golden Bat 2019 World Cup"
+    ],
+    "imgURL": "https://www.royalchallengers.com/PRRCB01/public/styles/1061x767_landscape/public/2024-06/GettyImages-2159846964.jpg?itok=sm5NI7oO"
+  },
+  {
+    "name": "Anil Kumble",
+    "role": "Bowler",
+    "career": "1990 - 2008",
+    "matches": 403,
+    "runs": 6177,
+    "wickets": 956,
+    "achievements": [
+      "3rd Highest Wicket Taker in Tests",
+      "10 wickets in an innings vs Pakistan (1999)",
+      "Captain of Indian Team 2007-08"
+    ],
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrvZZPzUXrFlVGppd9zazNauNdCP66NNDuwA&s"
+  },
+  {
+    "name": "Kapil Dev",
+    "role": "All-Rounder",
+    "career": "1978 - 1994",
+    "matches": 356,
+    "runs": 9031,
+    "wickets": 687,
+    "achievements": [
+      "1983 World Cup Winning Captain",
+      "First Indian to take 400+ Test wickets",
+      "Wisden Cricketer of the Century (2002)"
+    ],
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BM2RiOWRiZGEtMDBiNi00NmQ4LWEzZTQtNjk1MjUyMTMyYjA1XkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "name": "Sourav Ganguly",
+    "role": "Batsman",
+    "career": "1992 - 2008",
+    "matches": 424,
+    "runs": 18000,
+    "wickets": 132,
+    "achievements": [
+      "Known as 'Dada' of Indian Cricket",
+      "Transformed Team India’s Aggression",
+      "Led India to 2003 World Cup Final"
+    ],
+    "imgURL": "https://www.royalchallengers.com/PRRCB01/public/styles/1061x767_landscape/public/2020-07/Sourav%20Ganguly%20India.jpg?h=dad5535d&itok=DJmsSTi7"
+  },
+  {
+    "name": "Rahul Dravid",
+    "role": "Batsman",
+    "career": "1996 - 2012",
+    "matches": 509,
+    "runs": 24000,
+    "wickets": 5,
+    "achievements": [
+      "Known as 'The Wall'",
+      "2nd Highest Run Scorer for India",
+      "Greatest Slip Fielder of All Time"
+    ],
+    "imgURL": "https://assets.sportsboom.com/Rahul_Dravid_Test_Batting_for_India_d069e14c03.jpeg"
+  },
+  {
+    "name": "Yuvraj Singh",
+    "role": "All-Rounder",
+    "career": "2000 - 2017",
+    "matches": 402,
+    "runs": 11000,
+    "wickets": 148,
+    "achievements": [
+      "Man of the Tournament - 2011 World Cup",
+      "6 Sixes in an Over vs Stuart Broad",
+      "Survivor & Inspiration (Cancer Warrior)"
+    ],
+    "imgURL": "https://m.media-amazon.com/images/M/MV5BYjA5OGNhOWEtOTljMi00ZDY2LThiNzktMzVhY2RhMzNlYjBjXkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "name": "Zaheer Khan",
+    "role": "Bowler",
+    "career": "2000 - 2014",
+    "matches": 309,
+    "runs": 1500,
+    "wickets": 600,
+    "achievements": [
+      "India’s Most Successful Left-Arm Pacer",
+      "Key Bowler in 2011 World Cup Victory"
+    ],
+    "imgURL": "https://www.zapcricket.com/cdn/shop/articles/WhatsApp_Image_2024-07-31_at_10.46.55.webp?v=1722403571"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "role": "Bowler",
+    "career": "2016 - Present",
+    "matches": 200,
+    "runs": 500,
+    "wickets": 400,
+    "achievements": [
+      "Known for Deadly Yorkers",
+      "Fastest Indian to 100 ODI Wickets",
+      "Spearhead of Modern Indian Pace Attack"
+    ],
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Jasprit_Bumrah_in_PMO_New_Delhi.jpg/250px-Jasprit_Bumrah_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "name": "Virender Sehwag",
+    "role": "Batsman",
+    "career": "1999 - 2013",
+    "matches": 374,
+    "runs": 17000,
+    "wickets": 136,
+    "achievements": [
+      "First Indian to score 300 in Tests",
+      "Revolutionized Aggressive Opening",
+      "Part of 2011 World Cup Winning Team"
+    ],
+    "imgURL": "https://www.sportzcraazy.com/wp-content/uploads/2018/09/Virender-Sehwag.jpg"
+  }
+]

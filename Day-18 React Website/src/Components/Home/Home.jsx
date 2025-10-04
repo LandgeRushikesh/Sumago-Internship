@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../HeroSection/Hero";
 import About from "../About/About";
+import Champions from "../Champions/Champions";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       </section>
       <section className="players-sec mx-6 my-4">
         <h2 className="text-4xl font-bold text-white">Know the Champions</h2>
+        <Champions />
       </section>
     </div>
   );
