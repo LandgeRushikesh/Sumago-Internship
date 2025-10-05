@@ -15,21 +15,6 @@
     "imgURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sachin_Tendulkar_at_MRF_Promotion_Event.jpg"
   },
   {
-    "name": "MS Dhoni",
-    "role": "Batsman",
-    "career": "2004 - 2019",
-    "matches": 538,
-    "runs": 17266,
-    "wickets": 1,
-    "achievements": [
-      "2007 T20 World Cup Winning Captain",
-      "2011 ICC World Cup Winning Captain",
-      "2013 ICC Champions Trophy Winning Captain",
-      "Best Finisher in World Cricket"
-    ],
-    "imgURL": "https://images.hindustantimes.com/img/2022/07/06/550x309/dhoni-2016-getty_1654515327472_1657137509048.jpg"
-  },
-  {
     "name": "Virat Kohli",
     "role": "Batsman",
     "career": "2008 - Present",
@@ -56,6 +41,21 @@
       "ICC Golden Bat 2019 World Cup"
     ],
     "imgURL": "https://www.royalchallengers.com/PRRCB01/public/styles/1061x767_landscape/public/2024-06/GettyImages-2159846964.jpg?itok=sm5NI7oO"
+  },
+  {
+    "name": "MS Dhoni",
+    "role": "Batsman",
+    "career": "2004 - 2019",
+    "matches": 538,
+    "runs": 17266,
+    "wickets": 1,
+    "achievements": [
+      "2007 T20 World Cup Winning Captain",
+      "2011 ICC World Cup Winning Captain",
+      "2013 ICC Champions Trophy Winning Captain",
+      "Best Finisher in World Cricket"
+    ],
+    "imgURL": "https://images.hindustantimes.com/img/2022/07/06/550x309/dhoni-2016-getty_1654515327472_1657137509048.jpg"
   },
   {
     "name": "Anil Kumble",
@@ -167,5 +167,117 @@
       "Part of 2011 World Cup Winning Team"
     ],
     "imgURL": "https://www.sportzcraazy.com/wp-content/uploads/2018/09/Virender-Sehwag.jpg"
+  },
+  {
+    "name": "Mohammed Azharuddin",
+    "role": "Batsman",
+    "career": "1984 - 2000",
+    "matches": 433,
+    "runs": 15593,
+    "wickets": 12,
+    "achievements": [
+      "Known for his wristy elegance",
+      "Scored centuries in his first 3 Tests",
+      "Captained India in 3 World Cups"
+    ],
+    "imgURL": "https://c.ndtvimg.com/2025-04/54oucl2o_mohammad-azharuddin_625x300_20_April_25.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738"
+  },
+  {
+    "name": "Gautam Gambhir",
+    "role": "Batsman",
+    "career": "2003 - 2016",
+    "matches": 242,
+    "runs": 10024,
+    "wickets": 0,
+    "achievements": [
+      "Match-winning knocks in 2007 T20 WC & 2011 WC Finals",
+      "Top-ranked ICC Test batsman in 2009",
+      "Arjuna Awardee (2008)"
+    ],
+    "imgURL": "https://www.zapcricket.com/cdn/shop/articles/WhatsApp_Image_2023-11-21_at_02.31.12.webp?v=1700516097"
+  },
+  {
+    "name": "Harbhajan Singh",
+    "role": "Bowler",
+    "career": "1998 - 2016",
+    "matches": 367,
+    "runs": 3569,
+    "wickets": 711,
+    "achievements": [
+      "First Indian to take a Test hat-trick",
+      "Key spinner in 2001 Australia series win",
+      "Part of 2007 T20 WC & 2011 WC winning squads"
+    ],
+    "imgURL": "https://blackhattalent.com/wp-content/uploads/2023/09/Harbhajan-Singh-1.jpg"
+  },
+  {
+    "name": "Irfan Pathan",
+    "role": "All-Rounder",
+    "career": "2003 - 2012",
+    "matches": 173,
+    "runs": 2821,
+    "wickets": 301,
+    "achievements": [
+      "Hat-trick against Pakistan in Karachi Test (2006)",
+      "Man of the Match – 2007 T20 WC Final",
+      "Swing master of Indian cricket"
+    ],
+    "imgURL": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_800,q_50/lsci/db/PICTURES/CMS/383300/383363.jpg"
+  },
+  {
+    "name": "Suresh Raina",
+    "role": "Batsman",
+    "career": "2005 - 2018",
+    "matches": 322,
+    "runs": 7988,
+    "wickets": 62,
+    "achievements": [
+      "First Indian to score centuries in all 3 formats",
+      "Key player in 2011 World Cup knockout games",
+      "Mr. IPL – Consistent run-scorer for CSK"
+    ],
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2tyq3MF3HF8Sl_4FcR2pzb-3GQf_8thrPw&s"
+  },
+  {
+    "name": "Ajinkya Rahane",
+    "role": "Batsman",
+    "career": "2011 - Present",
+    "matches": 200,
+    "runs": 8500,
+    "wickets": 0,
+    "achievements": [
+      "Known for calm & steady batting overseas",
+      "Captain in India’s historic 2021 Test series win in Australia",
+      "Scored centuries in South Africa, England, Australia, and New Zealand"
+    ],
+    "imgURL": "https://www.hindustantimes.com/ht-img/img/2025/08/21/1600x900/rahane_test_1755682134646_1755682138348_1755757481181.jpg"
+  },
+  {
+    "name": "Ravichandran Ashwin",
+    "role": "Bowler",
+    "career": "2010 - 2025",
+    "matches": 275,
+    "runs": 6500,
+    "wickets": 700,
+    "achievements": [
+      "Fastest Indian to 300 Test wickets",
+      "ICC Cricketer of the Year 2016",
+      "One of the greatest off-spinners of modern era"
+    ],
+    "imgURL": "https://assets.gqindia.com/photos/6762a3de979d7d1400723458/16:9/w_2560%2Cc_limit/Ashwin.jpg"
+  },
+  {
+    "name": "Shikhar Dhawan",
+    "role": "Batsman",
+    "career": "2010 - 2025",
+    "matches": 250,
+    "runs": 10500,
+    "wickets": 10,
+    "achievements": [
+      "Fastest century on Test debut (187 vs Australia)",
+      "Top scorer in 2013 & 2017 ICC Champions Trophy",
+      "Known as ‘Gabbar’ of Indian Cricket"
+    ],
+    "imgURL": "https://www.royalchallengers.com/PRRCB01/public/styles/1061x767_landscape/public/2024-08/GettyImages-1148678872.jpg?itok=9ySJqvFr"
   }
 ]

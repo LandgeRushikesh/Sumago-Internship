@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ player }) {
   return (
-    <div className="card bg-white shadow-lg shadow-black w-[350px] py-3 px-4 rounded-lg flex flex-col justify-evenly flex-nowrap flex-shrink-0 hover:scale-[1.02] transition-all ease-in-out duration-500s">
+    <div className="card bg-white shadow-lg shadow-black w-[400px] py-3 px-4 rounded-lg flex flex-col justify-evenly flex-nowrap flex-shrink-0 hover:scale-[1.02] hover:shadow-xl transition-all ease-in-out duration-300s cursor-pointer">
       <div className="img w-full">
         <img
           src={player.imgURL}
@@ -35,7 +35,7 @@ function Card({ player }) {
         </div>
         <div>
           <strong>Achievements: </strong>
-          <ul className="px-4">
+          <ul className="px-4 list-disc text-sm">
             {player.achievements.map((achievement, index) => (
               <li key={index}>{achievement}</li>
             ))}

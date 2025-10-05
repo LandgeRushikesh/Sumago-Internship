@@ -1,6 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+  const navigate = useNavigate();
+
+  const HandleClick = () => {
+    navigate("/Players");
+  };
   return (
     <div className="h-[80vh] relative flex justify-between items-center">
       <div className="w-[60vw]">
@@ -15,7 +21,10 @@ function About() {
           they love. Our mission is to highlight stories, achievements, and
           moments that define cricket in India.
         </p>
-        <button className="text-lg bg-blue-700 font-bold px-3 py-2 rounded-lg mb-3">
+        <button
+          onClick={HandleClick}
+          className="text-lg bg-blue-700 font-bold px-3 py-2 rounded-lg mb-3"
+        >
           Explore Players
         </button>
       </div>
