@@ -46,18 +46,6 @@ function Navbar() {
         </li>
         <li>
           <NavLink
-            to="/Teams"
-            className={({ isActive }) =>
-              `${
-                isActive ? "text-blue-500 font-bold text-xl" : "text-black"
-              } transition-all ease-in-out duration-150`
-            }
-          >
-            Teams
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
             to="/Stats"
             className={({ isActive }) =>
               `${
@@ -66,6 +54,18 @@ function Navbar() {
             }
           >
             Stats
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/Gallery"
+            className={({ isActive }) =>
+              `${
+                isActive ? "text-blue-500 font-bold text-xl" : "text-black"
+              } transition-all ease-in-out duration-150`
+            }
+          >
+            Gallery
           </NavLink>
         </li>
       </ul>
