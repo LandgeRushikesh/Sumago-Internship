@@ -19,7 +19,7 @@ function Footer() {
       <div className="quickLinks my-4 flex  justify-around items-start">
         <div className="navLinks ">
           <h3 className="text-2xl font-bold mb-2">Quick Links</h3>
-          <div className="grid grid-cols-3 gap-2 text-lg">
+          <div className="grid grid-cols-3 gap-2 text-md text-slate-400">
             <Link to={"/"} className="hover:text-blue-700 hover:underline">
               Home
             </Link>

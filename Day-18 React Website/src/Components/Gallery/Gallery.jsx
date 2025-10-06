@@ -28,10 +28,10 @@ function Gallery() {
           (cat) => (
             <button
               key={cat}
-              className={`px-6 py-2 bg-white rounded-3xl font-bold shadow-lg shadow-black hover:scale-105 transition-all ease-in-out duration-200 ${
+              className={`px-6 py-2 rounded-3xl font-bold shadow-lg shadow-black hover:scale-105 transition-all ease-in-out duration-200 ${
                 cat === category
-                  ? "bg-blue-600 text-white shadow-xl scale-105"
-                  : ""
+                  ? "bg-blue-700 text-white shadow-xl scale-105"
+                  : "bg-white"
               }`}
               onClick={() => setCategory(cat)}
             >

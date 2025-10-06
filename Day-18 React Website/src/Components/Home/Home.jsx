@@ -6,7 +6,10 @@ import Champions from "../Champions/Champions";
 function Home() {
   return (
     <div className="w-full min-h-screen">
-      <Hero />
+      <Hero
+        title="Legends of 22 Yards"
+        subtitle="A Journey of Passion, Glory, and Cricketing Greatness"
+      />
       <section className="About-sec my-4">
         <About />
       </section>
