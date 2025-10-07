@@ -1,0 +1,218 @@
+{
+  "Most Runs": [
+    {
+      "Player": "Sachin Tendulkar",
+      "Matches": 200,
+      "Inns": 329,
+      "Runs": 15921
+    },
+    {
+      "Player": "Rahul Dravid",
+      "Matches": 163,
+      "Inns": 284,
+      "Runs": 13265
+    },
+    {
+      "Player": "Sunil Gavaskar",
+      "Matches": 125,
+      "Inns": 214,
+      "Runs": 10122
+    },
+    {
+      "Player": "Virat Kohli",
+      "Matches": 123,
+      "Inns": 210,
+      "Runs": 9230
+    },
+    {
+      "Player": "VVS Laxman",
+      "Matches": 134,
+      "Inns": 225,
+      "Runs": 8781
+    },
+    {
+      "Player": "Virender Sehwag",
+      "Matches": 103,
+      "Inns": 178,
+      "Runs": 8503
+    },
+    {
+      "Player": "Sourav Ganguly",
+      "Matches": 113,
+      "Inns": 188,
+      "Runs": 7212
+    },
+    {
+      "Player": "Cheteshwar Pujara",
+      "Matches": 103,
+      "Inns": 176,
+      "Runs": 7195
+    },
+    {
+      "Player": "Dilip Vengsarkar",
+      "Matches": 116,
+      "Inns": 185,
+      "Runs": 6868
+    },
+    {
+      "Player": "Mohammad Azharuddin",
+      "Matches": 99,
+      "Inns": 147,
+      "Runs": 6215
+    }
+  ],
+  "Highest Scores": [
+    {
+      "Player": "Virender Sehwag",
+      "Runs": 319,
+      "Balls": 304,
+      "SR": 105,
+      "Vs": "South Africa"
+    },
+    {
+      "Player": "Virender Sehwag",
+      "Runs": 309,
+      "Balls": 375,
+      "SR": 82,
+      "Vs": "Pakistan"
+    },
+    {
+      "Player": "Karun Nair",
+      "Runs": 303,
+      "Balls": 381,
+      "SR": 80,
+      "Vs": "England"
+    },
+    {
+      "Player": "Virender Sehwag",
+      "Runs": 293,
+      "Balls": 254,
+      "SR": 115,
+      "Vs": "Sri Lanka"
+    },
+    {
+      "Player": "VVS Laxman",
+      "Runs": 281,
+      "Balls": 452,
+      "SR": 62,
+      "Vs": "Australia"
+    },
+    {
+      "Player": "Rahul Dravid",
+      "Runs": 270,
+      "Balls": 495,
+      "SR": 55,
+      "Vs": "Pakistan"
+    },
+    {
+      "Player": "Shubman Gill",
+      "Runs": 269,
+      "Balls": 387,
+      "SR": 70,
+      "Vs": "England"
+    },
+    {
+      "Player": "Virender Sehwag",
+      "Runs": 254,
+      "Balls": 247,
+      "SR": 103,
+      "Vs": "Pakistan"
+    },
+    {
+      "Player": "Virat Kohli",
+      "Runs": 254,
+      "Balls": 336,
+      "SR": 76,
+      "Vs": "South Africa"
+    },
+    {
+      "Player": "Sachin Tendulkar",
+      "Runs": 248,
+      "Balls": 379,
+      "SR": 65,
+      "Vs": "Bangladesh"
+    }
+  ],
+  "Most Hundreds": [
+    {
+      "Player": "Sachin Tendulkar",
+      "Matches": 200,
+      "Inns": 329,
+      "Runs": 15921,
+      "H.S": 248,
+      "100s": 51
+    },
+    {
+      "Player": "Rahul Dravid",
+      "Matches": 163,
+      "Inns": 284,
+      "Runs": 13265,
+      "H.S": 270,
+      "100s": 36
+    },
+    {
+      "Player": "Sunil Gavaskar",
+      "Matches": 125,
+      "Inns": 214,
+      "Runs": 10122,
+      "H.S": 236,
+      "100s": 34
+    },
+    {
+      "Player": "Virat Kohli",
+      "Matches": 123,
+      "Inns": 210,
+      "Runs": 9230,
+      "H.S": 254,
+      "100s": 30
+    },
+    {
+      "Player": "Virender Sehwag",
+      "Matches": 103,
+      "Inns": 178,
+      "Runs": 8503,
+      "H.S": 319,
+      "100s": 23
+    },
+    {
+      "Player": "Mohammad Azharuddin",
+      "Matches": 99,
+      "Inns": 147,
+      "Runs": 6215,
+      "H.S": 199,
+      "100s": 22
+    },
+    {
+      "Player": "Cheteshwar Pujara",
+      "Matches": 103,
+      "Inns": 176,
+      "Runs": 7195,
+      "H.S": 206,
+      "100s": 19
+    },
+    {
+      "Player": "VVS Laxman",
+      "Matches": 134,
+      "Inns": 225,
+      "Runs": 8781,
+      "H.S": 281,
+      "100s": 17
+    },
+    {
+      "Player": "Dilip Vengsarkar",
+      "Matches": 116,
+      "Inns": 185,
+      "Runs": 6868,
+      "H.S": 166,
+      "100s": 17
+    },
+    {
+      "Player": "Sourav Ganguly",
+      "Matches": 113,
+      "Inns": 188,
+      "Runs": 7212,
+      "H.S": 239,
+      "100s": 16
+    }
+  ]
+}
