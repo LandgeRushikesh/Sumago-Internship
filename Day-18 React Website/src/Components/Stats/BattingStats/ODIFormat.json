@@ -1,0 +1,444 @@
+{
+  "Most Runs": [
+    {
+      "Batter": "Sachin Tendulkar",
+      "Matches": 463,
+      "Inns": 452,
+      "Runs": 18426
+    },
+    {
+      "Batter": "Virat Kohli",
+      "Matches": 302,
+      "Inns": 290,
+      "Runs": 14181
+    },
+    {
+      "Batter": "Sourav Ganguly",
+      "Matches": 308,
+      "Inns": 297,
+      "Runs": 11221
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "Matches": 273,
+      "Inns": 265,
+      "Runs": 11168
+    },
+    {
+      "Batter": "Rahul Dravid",
+      "Matches": 340,
+      "Inns": 314,
+      "Runs": 10768
+    },
+    {
+      "Batter": "MS Dhoni",
+      "Matches": 347,
+      "Inns": 294,
+      "Runs": 10599
+    },
+    {
+      "Batter": "Mohammad Azharuddin",
+      "Matches": 334,
+      "Inns": 308,
+      "Runs": 9378
+    },
+    {
+      "Batter": "Yuvraj Singh",
+      "Matches": 301,
+      "Inns": 275,
+      "Runs": 8609
+    },
+    {
+      "Batter": "Virender Sehwag",
+      "Matches": 241,
+      "Inns": 235,
+      "Runs": 7995
+    },
+    {
+      "Batter": "Shikhar Dhawan",
+      "Matches": 167,
+      "Inns": 164,
+      "Runs": 6793
+    }
+  ],
+  "Highest Scores": [
+    {
+      "Batter": "Rohit Sharma",
+      "Runs": 264,
+      "Balls": 173,
+      "SR": 153,
+      "Vs": "Sri Lanka"
+    },
+    {
+      "Batter": "Virender Sehwag",
+      "Runs": 219,
+      "Balls": 149,
+      "SR": 147,
+      "Vs": "West Indies"
+    },
+    {
+      "Batter": "Ishan Kishan",
+      "Runs": 210,
+      "Balls": 131,
+      "SR": 160,
+      "Vs": "Bangladesh"
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "Runs": 209,
+      "Balls": 158,
+      "SR": 132,
+      "Vs": "Australia"
+    },
+    {
+      "Batter": "Shubman Gill",
+      "Runs": 208,
+      "Balls": 149,
+      "SR": 140,
+      "Vs": "New Zealand"
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "Runs": 208,
+      "Balls": 153,
+      "SR": 136,
+      "Vs": "Sri Lanka"
+    },
+    {
+      "Batter": "Sachin Tendulkar",
+      "Runs": 200,
+      "Balls": 147,
+      "SR": 136,
+      "Vs": "South Africa"
+    },
+    {
+      "Batter": "Sachin Tendulkar",
+      "Runs": 186,
+      "Balls": 150,
+      "SR": 124,
+      "Vs": "New Zealand"
+    },
+    {
+      "Batter": "MS Dhoni",
+      "Runs": 183,
+      "Balls": 145,
+      "SR": 126,
+      "Vs": "Sri Lanka"
+    },
+    {
+      "Batter": "Virat Kohli",
+      "Runs": 183,
+      "Balls": 148,
+      "SR": 124,
+      "Vs": "Pakistan"
+    }
+  ],
+  "Most Fiftes": [
+    {
+      "Batter": "Sachin Tendulkar",
+      "Matches": 463,
+      "Inns": 452,
+      "Runs": 18426,
+      "90s": 18,
+      "50s": 96
+    },
+    {
+      "Batter": "Rahul Dravid",
+      "Matches": 340,
+      "Inns": 314,
+      "Runs": 10768,
+      "90s": 4,
+      "50s": 82
+    },
+    {
+      "Batter": "Virat Kohli",
+      "Matches": 302,
+      "Inns": 290,
+      "Runs": 14181,
+      "90s": 7,
+      "50s": 74
+    },
+    {
+      "Batter": "MS Dhoni",
+      "Matches": 347,
+      "Inns": 294,
+      "Runs": 10599,
+      "90s": 6,
+      "50s": 73
+    },
+    {
+      "Batter": "Sourav Ganguly",
+      "Matches": 308,
+      "Inns": 297,
+      "Runs": 11221,
+      "90s": 6,
+      "50s": 71
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "Matches": 273,
+      "Inns": 265,
+      "Runs": 11168,
+      "90s": 5,
+      "50s": 58
+    },
+    {
+      "Batter": "Mohammad Azharuddin",
+      "Matches": 334,
+      "Inns": 308,
+      "Runs": 9378,
+      "90s": 7,
+      "50s": 58
+    },
+    {
+      "Batter": "Yuvraj Singh",
+      "Matches": 301,
+      "Inns": 275,
+      "Runs": 8609,
+      "90s": 3,
+      "50s": 52
+    },
+    {
+      "Batter": "Shikhar Dhawan",
+      "Matches": 167,
+      "Inns": 164,
+      "Runs": 6793,
+      "90s": 7,
+      "50s": 39
+    },
+    {
+      "Batter": "Virender Sehwag",
+      "Matches": 241,
+      "Inns": 235,
+      "Runs": 7995,
+      "90s": 6,
+      "50s": 37
+    }
+  ],
+  "Most Hundreds": [
+    {
+      "Batter": "Virat Kohli",
+      "Matches": 302,
+      "Inns": 290,
+      "Runs": 14181,
+      "H.S": 183,
+      "100s": 51
+    },
+    {
+      "Batter": "Sachin Tendulkar",
+      "Matches": 463,
+      "Inns": 452,
+      "Runs": 18426,
+      "H.S": 200,
+      "100s": 49
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "Matches": 273,
+      "Inns": 265,
+      "Runs": 11168,
+      "H.S": 264,
+      "100s": 32
+    },
+    {
+      "Batter": "Sourav Ganguly",
+      "Matches": 308,
+      "Inns": 297,
+      "Runs": 11221,
+      "H.S": 183,
+      "100s": 22
+    },
+    {
+      "Batter": "Shikhar Dhawan",
+      "Matches": 167,
+      "Inns": 164,
+      "Runs": 6793,
+      "H.S": 143,
+      "100s": 17
+    },
+    {
+      "Batter": "Virender Sehwag",
+      "Matches": 241,
+      "Inns": 235,
+      "Runs": 7995,
+      "H.S": 219,
+      "100s": 15
+    },
+    {
+      "Batter": "Yuvraj Singh",
+      "Matches": 301,
+      "Inns": 275,
+      "Runs": 8609,
+      "H.S": 150,
+      "100s": 14
+    },
+    {
+      "Batter": "Rahul Dravid",
+      "Matches": 340,
+      "Inns": 314,
+      "Runs": 10768,
+      "H.S": 153,
+      "100s": 12
+    },
+    {
+      "Batter": "Gautam Gambhir",
+      "Matches": 147,
+      "Inns": 143,
+      "Runs": 5238,
+      "H.S": 150,
+      "100s": 11
+    },
+    {
+      "Batter": "MS Dhoni",
+      "Matches": 347,
+      "Inns": 294,
+      "Runs": 10599,
+      "H.S": 183,
+      "100s": 9
+    }
+  ],
+  "Most Fours": [
+    {
+      "Batter": "Sachin Tendulkar",
+      "Matches": 463,
+      "Inns": 452,
+      "Runs": 18426,
+      "4s": 2016
+    },
+    {
+      "Batter": "Virat Kohli",
+      "Matches": 302,
+      "Inns": 290,
+      "Runs": 14181,
+      "4s": 1325
+    },
+    {
+      "Batter": "Sourav Ganguly",
+      "Matches": 308,
+      "Inns": 297,
+      "Runs": 11221,
+      "4s": 1104
+    },
+    {
+      "Batter": "Virender Sehwag",
+      "Matches": 241,
+      "Inns": 235,
+      "Runs": 7995,
+      "4s": 1092
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "Matches": 273,
+      "Inns": 265,
+      "Runs": 11168,
+      "4s": 1044
+    },
+    {
+      "Batter": "Rahul Dravid",
+      "Matches": 340,
+      "Inns": 314,
+      "Runs": 10768,
+      "4s": 942
+    },
+    {
+      "Batter": "Yuvraj Singh",
+      "Matches": 301,
+      "Inns": 275,
+      "Runs": 8609,
+      "4s": 896
+    },
+    {
+      "Batter": "Shikhar Dhawan",
+      "Matches": 167,
+      "Inns": 164,
+      "Runs": 6793,
+      "4s": 842
+    },
+    {
+      "Batter": "MS Dhoni",
+      "Matches": 347,
+      "Inns": 294,
+      "Runs": 10599,
+      "4s": 809
+    },
+    {
+      "Batter": "Mohammad Azharuddin",
+      "Matches": 334,
+      "Inns": 308,
+      "Runs": 9378,
+      "4s": 622
+    }
+  ],
+  "Most Sixes": [
+    {
+      "Batter": "Rohit Sharma",
+      "Matches": 273,
+      "Inns": 265,
+      "Runs": 11168,
+      "6s": 344
+    },
+    {
+      "Batter": "MS Dhoni",
+      "Matches": 347,
+      "Inns": 294,
+      "Runs": 10599,
+      "6s": 222
+    },
+    {
+      "Batter": "Sachin Tendulkar",
+      "Matches": 463,
+      "Inns": 452,
+      "Runs": 18426,
+      "6s": 195
+    },
+    {
+      "Batter": "Sourav Ganguly",
+      "Matches": 308,
+      "Inns": 297,
+      "Runs": 11221,
+      "6s": 189
+    },
+    {
+      "Batter": "Virat Kohli",
+      "Matches": 302,
+      "Inns": 290,
+      "Runs": 14181,
+      "6s": 153
+    },
+    {
+      "Batter": "Yuvraj Singh",
+      "Matches": 301,
+      "Inns": 275,
+      "Runs": 8609,
+      "6s": 153
+    },
+    {
+      "Batter": "Virender Sehwag",
+      "Matches": 241,
+      "Inns": 235,
+      "Runs": 7995,
+      "6s": 131
+    },
+    {
+      "Batter": "Suresh Raina",
+      "Matches": 226,
+      "Inns": 194,
+      "Runs": 5615,
+      "6s": 120
+    },
+    {
+      "Batter": "Ajay Jadeja",
+      "Matches": 196,
+      "Inns": 179,
+      "Runs": 5359,
+      "6s": 85
+    },
+    {
+      "Batter": "Shikhar Dhawan",
+      "Matches": 167,
+      "Inns": 164,
+      "Runs": 6793,
+      "6s": 79
+    }
+  ]
+}

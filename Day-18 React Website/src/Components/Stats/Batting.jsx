@@ -1,18 +1,57 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import TestData from "../Stats/BattingStats/TestFormat.json";
+import ODIData from "../Stats/BattingStats/ODIFormat.json";
+import StatsTable from "./StatsTable";
+import Sidebar from "./Sidebar";
 
 function Batting() {
   const location = useLocation();
   const [stats, setStats] = useState([]);
-  const [category, setCategory] = useState("most runs");
+  const [category, setCategory] = useState("Most Runs");
   const [keys, setKeys] = useState([]);
   const format = location.state?.format;
 
   useEffect(() => {
     if (format === "test") {
-      if (category === "most runs") {
+      if (category === "Most Runs") {
         setStats(TestData["Most Runs"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Highest Scores") {
+        setStats(TestData["Highest Scores"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Hundreds") {
+        setStats(TestData["Most Hundreds"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Fiftes") {
+        setStats(TestData["Most Fiftes"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Fours") {
+        setStats(TestData["Most Fours"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Sixes") {
+        setStats(TestData["Most Sixes"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      }
+    }
+    if (format === "ODI") {
+      if (category === "Most Runs") {
+        setStats(ODIData["Most Runs"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Highest Scores") {
+        setStats(ODIData["Highest Scores"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Hundreds") {
+        setStats(ODIData["Most Hundreds"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Fiftes") {
+        setStats(ODIData["Most Fiftes"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Fours") {
+        setStats(ODIData["Most Fours"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Sixes") {
+        setStats(ODIData["Most Sixes"]);
         setKeys(stats.length > 0 && Object.keys(stats[0]));
       }
     }
@@ -23,37 +62,17 @@ function Batting() {
   }, [stats]);
 
   return (
-    <div className="mx-10 my-8 w-full ">
-      {
-        <table className="mx-auto w-[80%] bg-white">
-          <caption>Most Runs</caption>
-          <thead>
-            <tr>
-              {stats.length > 0 &&
-                Object.keys(stats[0]).map((title, index) => (
-                  <th
-                    key={index}
-                    className="text-start border-2 border-black px-2 py-3"
-                  >
-                    {title}
-                  </th>
-                ))}
-            </tr>
-          </thead>
-          <tbody>
-            {stats.length > 0 &&
-              stats.map((stat, index) => (
-                <tr key={index}>
-                  {keys.map((key, index) => (
-                    <td key={index} className="border-2 border-black px-2 py-3">
-                      {stat[key]}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-          </tbody>
-        </table>
-      }
+    <div className="my-8 w-full flex justify-between items-start">
+      <div className="sidebar w-[20%] h-full">
+        <Sidebar
+          category={category}
+          setCategory={setCategory}
+          format={format}
+        />
+      </div>
+      <div className="stats w-[80%]">
+        <StatsTable stats={stats} keys={keys} category={category} />
+      </div>
     </div>
   );
 }

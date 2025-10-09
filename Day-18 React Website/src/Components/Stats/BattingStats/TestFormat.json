@@ -214,5 +214,231 @@
       "H.S": 239,
       "100s": 16
     }
+  ],
+  "Most Fiftes": [
+    {
+      "Batter": "Sachin Tendulkar",
+      "Matches": 200,
+      "Inns": 329,
+      "Runs": 15921,
+      "90s": 10,
+      "50s": 68
+    },
+    {
+      "Batter": "Rahul Dravid",
+      "Matches": 163,
+      "Inns": 284,
+      "Runs": 13265,
+      "90s": 10,
+      "50s": 63
+    },
+    {
+      "Batter": "VVS Laxman",
+      "Matches": 134,
+      "Inns": 225,
+      "Runs": 8781,
+      "90s": 4,
+      "50s": 56
+    },
+    {
+      "Batter": "Sunil Gavaskar",
+      "Matches": 125,
+      "Inns": 214,
+      "Runs": 10122,
+      "90s": 5,
+      "50s": 45
+    },
+    {
+      "Batter": "Sourav Ganguly",
+      "Matches": 113,
+      "Inns": 188,
+      "Runs": 7212,
+      "90s": 4,
+      "50s": 35
+    },
+    {
+      "Batter": "Cheteshwar Pujara",
+      "Matches": 103,
+      "Inns": 176,
+      "Runs": 7195,
+      "90s": 3,
+      "50s": 35
+    },
+    {
+      "Batter": "Dilip Vengsarkar",
+      "Matches": 116,
+      "Inns": 185,
+      "Runs": 6868,
+      "90s": 4,
+      "50s": 35
+    },
+    {
+      "Batter": "Gundappa Viswanath",
+      "Matches": 91,
+      "Inns": 155,
+      "Runs": 6080,
+      "90s": 3,
+      "50s": 35
+    },
+    {
+      "Batter": "MS Dhoni",
+      "Matches": 90,
+      "Inns": 144,
+      "Runs": 4876,
+      "90s": 5,
+      "50s": 33
+    },
+    {
+      "Batter": "Virat Kohli",
+      "Matches": 123,
+      "Inns": 210,
+      "Runs": 9230,
+      "90s": 2,
+      "50s": 31
+    }
+  ],
+  "Most Fours": [
+    {
+      "Batter": "Sachin Tendulkar",
+      "Matches": 200,
+      "Inns": 329,
+      "Runs": 15921,
+      "4s": 2058
+    },
+    {
+      "Batter": "Rahul Dravid",
+      "Matches": 163,
+      "Inns": 284,
+      "Runs": 13265,
+      "4s": 1652
+    },
+    {
+      "Batter": "Virender Sehwag",
+      "Matches": 103,
+      "Inns": 178,
+      "Runs": 8503,
+      "4s": 1219
+    },
+    {
+      "Batter": "VVS Laxman",
+      "Matches": 134,
+      "Inns": 225,
+      "Runs": 8781,
+      "4s": 1135
+    },
+    {
+      "Batter": "Virat Kohli",
+      "Matches": 123,
+      "Inns": 210,
+      "Runs": 9230,
+      "4s": 1027
+    },
+    {
+      "Batter": "Sunil Gavaskar",
+      "Matches": 125,
+      "Inns": 214,
+      "Runs": 10122,
+      "4s": 1016
+    },
+    {
+      "Batter": "Sourav Ganguly",
+      "Matches": 113,
+      "Inns": 188,
+      "Runs": 7212,
+      "4s": 900
+    },
+    {
+      "Batter": "Cheteshwar Pujara",
+      "Matches": 103,
+      "Inns": 176,
+      "Runs": 7195,
+      "4s": 863
+    },
+    {
+      "Batter": "Mohammad Azharuddin",
+      "Matches": 99,
+      "Inns": 147,
+      "Runs": 6215,
+      "4s": 720
+    },
+    {
+      "Batter": "Gundappa Viswanath",
+      "Matches": 91,
+      "Inns": 155,
+      "Runs": 6080,
+      "4s": 616
+    }
+  ],
+  "Most Sixes": [
+    {
+      "Batter": "Virender Sehwag",
+      "MATCHES": 103,
+      "INNS": 178,
+      "RUNS": 8503,
+      "6s": 90
+    },
+    {
+      "Batter": "Rishabh Pant",
+      "MATCHES": 47,
+      "INNS": 82,
+      "RUNS": 3427,
+      "6s": 90
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "MATCHES": 67,
+      "INNS": 116,
+      "RUNS": 4301,
+      "6s": 88
+    },
+    {
+      "Batter": "Ravindra Jadeja",
+      "MATCHES": 86,
+      "INNS": 129,
+      "RUNS": 3990,
+      "6s": 80
+    },
+    {
+      "Batter": "MS Dhoni",
+      "MATCHES": 90,
+      "INNS": 144,
+      "RUNS": 4876,
+      "6s": 78
+    },
+    {
+      "Batter": "Sachin Tendulkar",
+      "MATCHES": 200,
+      "INNS": 329,
+      "RUNS": 15921,
+      "6s": 69
+    },
+    {
+      "Batter": "Kapil Dev",
+      "MATCHES": 131,
+      "INNS": 184,
+      "RUNS": 5248,
+      "6s": 61
+    },
+    {
+      "Batter": "Sourav Ganguly",
+      "MATCHES": 113,
+      "INNS": 188,
+      "RUNS": 7212,
+      "6s": 57
+    },
+    {
+      "Batter": "Shubman Gill",
+      "MATCHES": 38,
+      "INNS": 70,
+      "RUNS": 2697,
+      "6s": 43
+    },
+    {
+      "Batter": "Yashasvi Jaiswal",
+      "MATCHES": 25,
+      "INNS": 47,
+      "RUNS": 2245,
+      "6s": 43
+    }
   ]
 }

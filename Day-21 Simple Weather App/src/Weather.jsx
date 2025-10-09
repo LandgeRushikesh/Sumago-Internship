@@ -16,7 +16,7 @@ function Weather() {
   }, [city]);
 
   return (
-    <div className="w-[400px] h-1/2 bg-green-600 my-5 rounded-lg flex flex-col items-center ">
+    <div className="w-[400px] h-[70%] bg-[url('/snow-fall-night.jpeg')] bg-center bg-cover my-5 rounded-lg flex flex-col items-center ">
       <select
         name="City"
         id="city"
@@ -30,8 +30,8 @@ function Weather() {
         ))}
       </select>
 
-      <div className="text-center mt-20">
-        <h3 className="text-3xl text-slate-600 font-bold">{city}</h3>
+      <div className="text-center mt-20  text-white">
+        <h3 className="text-3xl text-white font-bold">{city}</h3>
         <h2 className="text-6xl">
           {temp}
           &deg;C
