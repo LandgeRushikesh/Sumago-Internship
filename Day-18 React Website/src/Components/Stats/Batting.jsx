@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import TestData from "../Stats/BattingStats/TestFormat.json";
 import ODIData from "../Stats/BattingStats/ODIFormat.json";
+import T20Data from "../Stats/BattingStats/T20Format.json";
 import StatsTable from "./StatsTable";
 import Sidebar from "./Sidebar";
 
@@ -33,8 +34,7 @@ function Batting() {
         setStats(TestData["Most Sixes"]);
         setKeys(stats.length > 0 && Object.keys(stats[0]));
       }
-    }
-    if (format === "ODI") {
+    } else if (format === "ODI") {
       if (category === "Most Runs") {
         setStats(ODIData["Most Runs"]);
         setKeys(stats.length > 0 && Object.keys(stats[0]));
@@ -52,6 +52,26 @@ function Batting() {
         setKeys(stats.length > 0 && Object.keys(stats[0]));
       } else if (category === "Most Sixes") {
         setStats(ODIData["Most Sixes"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      }
+    } else if (format === "T20") {
+      if (category === "Most Runs") {
+        setStats(T20Data["Most Runs"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Highest Scores") {
+        setStats(T20Data["Highest Scores"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Hundreds") {
+        setStats(T20Data["Most Hundreds"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Fiftes") {
+        setStats(T20Data["Most Fiftes"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Fours") {
+        setStats(T20Data["Most Fours"]);
+        setKeys(stats.length > 0 && Object.keys(stats[0]));
+      } else if (category === "Most Sixes") {
+        setStats(T20Data["Most Sixes"]);
         setKeys(stats.length > 0 && Object.keys(stats[0]));
       }
     }

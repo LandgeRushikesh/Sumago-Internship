@@ -1,0 +1,444 @@
+{
+  "Most Runs": [
+    {
+      "PLAYER": "Rohit Sharma",
+      "MATCHES": 159,
+      "INNS": 151,
+      "RUNS": 4231
+    },
+    {
+      "PLAYER": "Virat Kohli",
+      "MATCHES": 125,
+      "INNS": 117,
+      "RUNS": 4188
+    },
+    {
+      "PLAYER": "Suryakumar Yadav",
+      "MATCHES": 90,
+      "INNS": 85,
+      "RUNS": 2670
+    },
+    {
+      "PLAYER": "KL Rahul",
+      "MATCHES": 72,
+      "INNS": 68,
+      "RUNS": 2265
+    },
+    {
+      "PLAYER": "Hardik Pandya",
+      "MATCHES": 120,
+      "INNS": 94,
+      "RUNS": 1860
+    },
+    {
+      "PLAYER": "Shikhar Dhawan",
+      "MATCHES": 68,
+      "INNS": 66,
+      "RUNS": 1759
+    },
+    {
+      "PLAYER": "MS Dhoni",
+      "MATCHES": 98,
+      "INNS": 85,
+      "RUNS": 1617
+    },
+    {
+      "PLAYER": "Suresh Raina",
+      "MATCHES": 78,
+      "INNS": 66,
+      "RUNS": 1604
+    },
+    {
+      "PLAYER": "Rishabh Pant",
+      "MATCHES": 76,
+      "INNS": 66,
+      "RUNS": 1209
+    },
+    {
+      "PLAYER": "Yuvraj Singh",
+      "MATCHES": 58,
+      "INNS": 51,
+      "RUNS": 1177
+    }
+  ],
+  "Highest Scores": [
+    {
+      "Batter": "Abhishek Sharma",
+      "RUNS": 135,
+      "Balls": 54,
+      "SR": 250,
+      "Vs": "England"
+    },
+    {
+      "Batter": "Shubman Gill",
+      "RUNS": 126,
+      "Balls": 63,
+      "SR": 200,
+      "Vs": "New Zealand"
+    },
+    {
+      "Batter": "Ruturaj Gaikwad",
+      "RUNS": 123,
+      "Balls": 57,
+      "SR": 216,
+      "Vs": "Australia"
+    },
+    {
+      "Batter": "Virat Kohli",
+      "RUNS": 122,
+      "Balls": 61,
+      "SR": 200,
+      "Vs": "Afghanistan"
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "RUNS": 121,
+      "Balls": 69,
+      "SR": 175,
+      "Vs": "Afghanistan"
+    },
+    {
+      "Batter": "Tilak Varma",
+      "RUNS": 120,
+      "Balls": 47,
+      "SR": 255,
+      "Vs": "South Africa"
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "RUNS": 118,
+      "Balls": 43,
+      "SR": 274,
+      "Vs": "Sri Lanka"
+    },
+    {
+      "Batter": "Suryakumar Yadav",
+      "RUNS": 117,
+      "Balls": 55,
+      "SR": 213,
+      "Vs": "England"
+    },
+    {
+      "Batter": "Suryakumar Yadav",
+      "RUNS": 112,
+      "Balls": 51,
+      "SR": 220,
+      "Vs": "Sri Lanka"
+    },
+    {
+      "Batter": "Sanju Samson",
+      "RUNS": 111,
+      "Balls": 47,
+      "SR": 236,
+      "Vs": "Bangladesh"
+    }
+  ],
+  "Most Fiftes": [
+    {
+      "Batter": "Virat Kohli",
+      "MATCHES": 125,
+      "INNS": 117,
+      "RUNS": 4188,
+      "90s": 2,
+      "50s": 38
+    },
+    {
+      "Batter": "Rohit Sharma",
+      "MATCHES": 159,
+      "INNS": 151,
+      "RUNS": 4231,
+      "90s": 2,
+      "50s": 32
+    },
+    {
+      "Batter": "KL Rahul",
+      "MATCHES": 72,
+      "INNS": 68,
+      "RUNS": 2265,
+      "90s": 1,
+      "50s": 22
+    },
+    {
+      "Batter": "Suryakumar Yadav",
+      "MATCHES": 90,
+      "INNS": 85,
+      "RUNS": 2670,
+      "90s": 0,
+      "50s": 21
+    },
+    {
+      "Batter": "Shikhar Dhawan",
+      "MATCHES": 68,
+      "INNS": 66,
+      "RUNS": 1759,
+      "90s": 2,
+      "50s": 11
+    },
+    {
+      "Batter": "Yuvraj Singh",
+      "MATCHES": 58,
+      "INNS": 51,
+      "RUNS": 1177,
+      "90s": 0,
+      "50s": 8
+    },
+    {
+      "Batter": "Shreyas Iyer",
+      "MATCHES": 51,
+      "INNS": 47,
+      "RUNS": 1104,
+      "90s": 0,
+      "50s": 8
+    },
+    {
+      "Batter": "Gautam Gambhir",
+      "MATCHES": 37,
+      "INNS": 36,
+      "RUNS": 932,
+      "90s": 0,
+      "50s": 7
+    },
+    {
+      "Batter": "Ishan Kishan",
+      "MATCHES": 32,
+      "INNS": 32,
+      "RUNS": 796,
+      "90s": 0,
+      "50s": 6
+    },
+    {
+      "Batter": "Hardik Pandya",
+      "MATCHES": 120,
+      "INNS": 94,
+      "RUNS": 1860,
+      "90s": 0,
+      "50s": 5
+    }
+  ],
+  "Most Hundreds": [
+    {
+      "Batter": "Rohit Sharma",
+      "MATCHES": 159,
+      "INNS": 151,
+      "RUNS": 4231,
+      "H.S": 121,
+      "100s": 5
+    },
+    {
+      "Batter": "Suryakumar Yadav",
+      "MATCHES": 90,
+      "INNS": 85,
+      "RUNS": 2670,
+      "H.S": 117,
+      "100s": 4
+    },
+    {
+      "Batter": "Sanju Samson",
+      "MATCHES": 49,
+      "INNS": 42,
+      "RUNS": 993,
+      "H.S": 111,
+      "100s": 3
+    },
+    {
+      "Batter": "KL Rahul",
+      "MATCHES": 72,
+      "INNS": 68,
+      "RUNS": 2265,
+      "H.S": 110,
+      "100s": 2
+    },
+    {
+      "Batter": "Tilak Varma",
+      "MATCHES": 32,
+      "INNS": 30,
+      "RUNS": 962,
+      "H.S": 120,
+      "100s": 2
+    },
+    {
+      "Batter": "Abhishek Sharma",
+      "MATCHES": 24,
+      "INNS": 23,
+      "RUNS": 849,
+      "H.S": 135,
+      "100s": 2
+    },
+    {
+      "Batter": "Virat Kohli",
+      "MATCHES": 125,
+      "INNS": 117,
+      "RUNS": 4188,
+      "H.S": 122,
+      "100s": 1
+    },
+    {
+      "Batter": "Suresh Raina",
+      "MATCHES": 78,
+      "INNS": 66,
+      "RUNS": 1604,
+      "H.S": 101,
+      "100s": 1
+    },
+    {
+      "Batter": "Yashasvi Jaiswal",
+      "MATCHES": 23,
+      "INNS": 22,
+      "RUNS": 723,
+      "H.S": 100,
+      "100s": 1
+    },
+    {
+      "Batter": "Shubman Gill",
+      "MATCHES": 28,
+      "INNS": 28,
+      "RUNS": 705,
+      "H.S": 126,
+      "100s": 1
+    }
+  ],
+  "Most Fours": [
+    {
+      "Batter": "Rohit Sharma",
+      "MATCHES": 159,
+      "INNS": 151,
+      "RUNS": 4231,
+      "4s": 383
+    },
+    {
+      "Batter": "Virat Kohli",
+      "MATCHES": 125,
+      "INNS": 117,
+      "RUNS": 4188,
+      "4s": 369
+    },
+    {
+      "Batter": "Suryakumar Yadav",
+      "MATCHES": 90,
+      "INNS": 85,
+      "RUNS": 2670,
+      "4s": 243
+    },
+    {
+      "Batter": "KL Rahul",
+      "MATCHES": 72,
+      "INNS": 68,
+      "RUNS": 2265,
+      "4s": 191
+    },
+    {
+      "Batter": "Shikhar Dhawan",
+      "MATCHES": 68,
+      "INNS": 66,
+      "RUNS": 1759,
+      "4s": 191
+    },
+    {
+      "Batter": "Suresh Raina",
+      "MATCHES": 78,
+      "INNS": 66,
+      "RUNS": 1604,
+      "4s": 145
+    },
+    {
+      "Batter": "Hardik Pandya",
+      "MATCHES": 120,
+      "INNS": 94,
+      "RUNS": 1860,
+      "4s": 140
+    },
+    {
+      "Batter": "MS Dhoni",
+      "MATCHES": 98,
+      "INNS": 85,
+      "RUNS": 1617,
+      "4s": 116
+    },
+    {
+      "Batter": "Rishabh Pant",
+      "MATCHES": 76,
+      "INNS": 66,
+      "RUNS": 1209,
+      "4s": 111
+    },
+    {
+      "Batter": "Gautam Gambhir",
+      "MATCHES": 37,
+      "INNS": 36,
+      "RUNS": 932,
+      "4s": 109
+    }
+  ],
+  "Most Sixes": [
+    {
+      "Batter": "Rohit Sharma",
+      "MATCHES": 159,
+      "INNS": 151,
+      "RUNS": 4231,
+      "6s": 205
+    },
+    {
+      "Batter": "Suryakumar Yadav",
+      "MATCHES": 90,
+      "INNS": 85,
+      "RUNS": 2670,
+      "6s": 148
+    },
+    {
+      "Batter": "Virat Kohli",
+      "MATCHES": 125,
+      "INNS": 117,
+      "RUNS": 4188,
+      "6s": 124
+    },
+    {
+      "Batter": "KL Rahul",
+      "MATCHES": 72,
+      "INNS": 68,
+      "RUNS": 2265,
+      "6s": 99
+    },
+    {
+      "Batter": "Hardik Pandya",
+      "MATCHES": 120,
+      "INNS": 94,
+      "RUNS": 1860,
+      "6s": 96
+    },
+    {
+      "Batter": "Yuvraj Singh",
+      "MATCHES": 58,
+      "INNS": 51,
+      "RUNS": 1177,
+      "6s": 74
+    },
+    {
+      "Batter": "Abhishek Sharma",
+      "MATCHES": 24,
+      "INNS": 23,
+      "RUNS": 849,
+      "6s": 60
+    },
+    {
+      "Batter": "Suresh Raina",
+      "MATCHES": 78,
+      "INNS": 66,
+      "RUNS": 1604,
+      "6s": 58
+    },
+    {
+      "Batter": "Sanju Samson",
+      "MATCHES": 49,
+      "INNS": 42,
+      "RUNS": 993,
+      "6s": 56
+    },
+    {
+      "Batter": "Tilak Varma",
+      "MATCHES": 32,
+      "INNS": 30,
+      "RUNS": 962,
+      "6s": 53
+    }
+  ]
+}
