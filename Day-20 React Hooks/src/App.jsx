@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Child1 from "./Child1";
+import Child2 from "./Child2";
+import { NameContextProvider } from "./Context";
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
@@ -14,10 +17,13 @@ function App() {
   // }, [count]);
 
   useEffect(() => {
+    //this is called functional update ---> which always have the latest value unlike non-functional update(here sometimes value gets stuck in state closure)
     setLikeCount((prevCount) =>
       isLiked ? prevCount + 1 : prevCount > 0 ? prevCount - 1 : prevCount
     );
   }, [isLiked]);
+
+  const name = "Rushikesh";
 
   return (
     <div className="w-screen h-screen flex flex-col justify-center items-center">
@@ -45,7 +51,7 @@ function App() {
         </button>
         <button
           className="mr-4 px-4 py-2 bg-black text-white font-bold rounded-lg"
-          onClick={() => count >= 0 && setCount((prev) => prev - 1)}
+          onClick={() => count > 0 && setCount((prev) => prev - 1)}
         >
           Decrement
         </button>
@@ -60,6 +66,10 @@ function App() {
         </button>
         <p className="text-2xl">{likeCount}</p>
       </div>
+      <NameContextProvider value={name}>
+        <Child1 />
+        <Child2 />
+      </NameContextProvider>
     </div>
   );
 }
