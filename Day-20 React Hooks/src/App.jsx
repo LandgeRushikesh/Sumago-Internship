@@ -4,12 +4,20 @@ import "./App.css";
 function App() {
   const [isVisible, setIsVisible] = useState(true);
   const [count, setCount] = useState(0);
+  const [likeCount, setLikeCount] = useState(0);
+  const [isLiked, setIsLiked] = useState(false);
 
   // useEffect(() => {
   //   setTimeout(() => {
   //     setCount(count + 1);
   //   }, 1000);
   // }, [count]);
+
+  useEffect(() => {
+    setLikeCount((prevCount) =>
+      isLiked ? prevCount + 1 : prevCount > 0 ? prevCount - 1 : prevCount
+    );
+  }, [isLiked]);
 
   return (
     <div className="w-screen h-screen flex flex-col justify-center items-center">
@@ -41,6 +49,16 @@ function App() {
         >
           Decrement
         </button>
+      </div>
+
+      <div className="flex items-center">
+        <button
+          className={`${isLiked ? "text-red-800" : "text-black"} text-5xl mr-2`}
+          onClick={() => setIsLiked((prev) => !prev)}
+        >
+          {isLiked ? "❤️" : "🩶"}
+        </button>
+        <p className="text-2xl">{likeCount}</p>
       </div>
     </div>
   );
